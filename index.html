@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Transfer Boxes</title>
+</head>
+<!-- This Website is used for drag and drop of items from one container to other -->
+<body
+    style="background-image: url('https://tse4.mm.bing.net/th?id=OIP.gGK1iHVYY9eiysS2RUkAnAHaEj&pid=Api&P=0&h=180');">
+    
+    <div class="container">
+        <span>
+            <!-- container1 for Items -->
+            <div id="container1">
+                <div id="title">
+                    <h3>ITEMS</h3>
+                </div>
+                <!-- list of items -->
+                <div class="list" draggable="true">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/002/590/547/small/box-carton-delivery-line-style-icon-free-vector.jpg"
+                        style="height: 30px; border-radius: 10px; margin: 10px;">Item-1
+                </div>
+                <div class="list" draggable="true">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/002/590/547/small/box-carton-delivery-line-style-icon-free-vector.jpg"
+                        style="height: 30px; border-radius: 10px; margin: 10px;">Item-2
+                </div>
+                <div class="list" draggable="true">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/002/590/547/small/box-carton-delivery-line-style-icon-free-vector.jpg"
+                        style="height: 30px; border-radius: 10px; margin: 10px;">Item-3
+                </div>
+                <div class="list" draggable="true">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/002/590/547/small/box-carton-delivery-line-style-icon-free-vector.jpg"
+                        style="height: 30px; border-radius: 10px; margin: 10px;">Item-4
+                </div>
+                <div class="list" draggable="true">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/002/590/547/small/box-carton-delivery-line-style-icon-free-vector.jpg"
+                        style="height: 30px; border-radius: 10px; margin: 10px;">Item-5
+                </div>
+                <div class="list" draggable="true">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/002/590/547/small/box-carton-delivery-line-style-icon-free-vector.jpg"
+                        style="height: 30px; border-radius: 10px; margin: 10px;">Item-6
+                </div>
+            </div>
+        </span>
+        <!-- container2 for placing items -->
+        <div id="container2">
+            <h3 id="title2">INPUTS</h3>
+            <hr>
+        </div>
+
+    </div>
+    <!-- button for reset of containers -->
+    <button type="submit" id="reset" onclick="resetbox()"> Reset</button>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
