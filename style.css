@@ -1,0 +1,94 @@
+
+/* Container containing the background image, container1 and container2 */
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -50px;
+    margin-top: -30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Container1 */
+#container1 {
+    width: 300px;
+    min-height: 500px;
+    margin: 20px;
+    filter: opacity(90%);
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 0;
+    border: 5px solid blue;
+    background-color: black;
+}
+/* container2 */
+#container2 {
+    width: 300px;
+    min-height: 500px;
+    margin: 20px;
+    filter: opacity(90%);
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 0;
+    border: 5px solid black;
+    background-color: white;
+}
+/* Elements of container1, container2 */
+.list {
+    background: violet;
+    height: 40px;
+    margin: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: grab;
+    object-fit: contain;
+    border-radius: 10px;
+    opacity: 1;
+}
+/* Title of container1 */
+#title {
+    font-size: 30px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    border-radius: 15px;
+    border: 5px solid rgb(14, 14, 246);
+}
+/* Title of container2 */
+#title2 {
+    font-size: 30px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    display: flex;
+    border-radius: 15px;
+}
+/* Reset Button */
+#reset {
+    color: white;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+}
+/* Reset button on hovering of cursor */
+#reset:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition-duration: 0.5s;
+}
+/* For Heading Underline*/
+hr {
+    height: 5px;
+    width: 298.7px;
+    background-color: black;
+    border-radius: 2px;
+}
