@@ -17,9 +17,5 @@ for (list of lists) {
 }
 // On clicking reset button the function resetbox will reset all the containers
 function resetbox() {
-    window.location.replace(
-        "http://127.0.0.1:53059/"
-    );
     location.reload();
-
 }
